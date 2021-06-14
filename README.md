@@ -1,1 +1,3 @@
 # Service-Desk-Ticket-Classification
+
+A high frequency of issues can generate an overwhelming number of service desk tickets and incorrect delegation to teams to handle them. This leads to a spike in MTTR (mean time taken to resolve) and a dip in FCR (First Call Resolution). The solution mitigates these issues by training a multi-factor ML model that considers factors like ticket impact, urgency, priority, issue description and other features to predict the most relevant group to resolve a ticket. A pool of models is run through data to select the most generalizable model for the ticket classification task.
